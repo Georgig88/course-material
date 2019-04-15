@@ -36,7 +36,7 @@ void loop() {
   if (car.getDistance() >= 100) {
     car.setSpeed(0);
   }
-
+//
   // Keep printing out the current heading
   unsigned long currentTime = millis();
   if (currentTime >= previousPrintout + PRINT_INTERVAL) {
